@@ -1,0 +1,21 @@
+.englobador{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    .container-infos{
+        width: 50%;
+    }
+
+
+    .container-img{
+        width: 50%;
+
+        img{
+            width: 75%;
+        }
+    }
+}
