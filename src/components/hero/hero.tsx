@@ -14,10 +14,12 @@ export default function Hero() {
 
     const [text, setText] = useState<string>(conscientize)
     const [imageUrl, setImageUrl] = useState<string>(conscientizeImg)
+    const [activeItem, setActiveItem] = useState<string>('conscientize')
 
-    const updateText = (newText: string, newImageUrl: string) => {
+    const updateText = (newText: string, newImageUrl: string, item: string) => {
         setText(newText)
         setImageUrl(newImageUrl)
+        setActiveItem(item)
     }
 
 
@@ -27,9 +29,9 @@ export default function Hero() {
                 <div className="container-infos">
                     <nav>
                         <ul>
-                            <li onClick={() => updateText(conscientize, conscientizeImg)}>Conscientize-se</li>
-                            <li onClick={() => updateText(previna, previnaImg)}>Previna-se</li>
-                            <li onClick={() => updateText(capacite, capaciteImg)}>Capacite-se</li>
+                        <li className={activeItem === 'conscientize' ? 'active' : ''} onClick={() => updateText(conscientize, conscientizeImg, 'conscientize')}>Conscientize-se</li>
+                            <li className={activeItem === 'previna' ? 'active' : ''} onClick={() => updateText(previna, previnaImg, 'previna')}>Previna-se</li>
+                            <li className={activeItem === 'capacite' ? 'active' : ''} onClick={() => updateText(capacite, capaciteImg, 'capacite')}>Capacite-se</li>
                         </ul>
                     </nav>
                     <p>{ text }</p>
