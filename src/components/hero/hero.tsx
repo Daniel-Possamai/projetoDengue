@@ -10,7 +10,7 @@ export default function Hero() {
 
     const conscientizeImg = './images/mosquito.png'
     const previnaImg = './images/previnaimg.png'
-    const capaciteImg = './images/capacitation.png'
+    const capaciteImg = './images/test.png'
 
     const [text, setText] = useState<string>(conscientize)
     const [imageUrl, setImageUrl] = useState<string>(conscientizeImg)
