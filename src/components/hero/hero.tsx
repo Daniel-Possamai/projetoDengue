@@ -41,16 +41,16 @@ export default function Hero() {
                         </a>
                         <div className="submenu">
                             <div className="submenu-item">
-                                <a href="#" className="submenu-link"> Development </a>
+                                <a href="https://dengue.org.br/" className="submenu-link" target='_blank'>Site oficial da Dengue</a>
                             </div>
                             <div className="submenu-item">
-                                <a href="#" className="submenu-link"> Design </a>
+                                <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue" className="submenu-link">Ministério da Saúde</a>
                             </div>
                             <div className="submenu-item">
-                                <a href="#" className="submenu-link"> Marketing </a>
+                                <a href="https://www.paho.org/pt/topicos/dengue" className="submenu-link">Organização Pan-Americana da Saúde (OPAS)</a>
                             </div>
                             <div className="submenu-item">
-                                <a href="#" className="submenu-link"> SEO </a>
+                                <a href="https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue" className="submenu-link">World Health Organization (WHO)</a>
                             </div>
                         </div>
                     </div>
