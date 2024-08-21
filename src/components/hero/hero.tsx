@@ -44,13 +44,13 @@ export default function Hero() {
                                 <a href="https://dengue.org.br/" className="submenu-link" target='_blank'>Site oficial da Dengue</a>
                             </div>
                             <div className="submenu-item">
-                                <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue" className="submenu-link">Ministério da Saúde</a>
+                                <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue" className="submenu-link" target='_blank' >Ministério da Saúde</a>
                             </div>
                             <div className="submenu-item">
-                                <a href="https://www.paho.org/pt/topicos/dengue" className="submenu-link">Organização Pan-Americana da Saúde (OPAS)</a>
+                                <a href="https://www.paho.org/pt/topicos/dengue" className="submenu-link" target='_blank'>Organização Pan-Americana da Saúde (OPAS)</a>
                             </div>
                             <div className="submenu-item">
-                                <a href="https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue" className="submenu-link">World Health Organization (WHO)</a>
+                                <a href="https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue" className="submenu-link" target='_blank'>World Health Organization (WHO)</a>
                             </div>
                         </div>
                     </div>
